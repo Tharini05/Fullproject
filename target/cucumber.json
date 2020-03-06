@@ -1,0 +1,147 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 17729812800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "",
+        "description": "",
+        "id": "exercise;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13936024700,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I am in home page",
+            "match": {
+              "location": "CommonStep.i_am_in_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14001204800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Select the product \"hotwheels\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "hotwheels",
+                  "offset": 20
+                }
+              ],
+              "location": "WhislistStep.selectTheProduct(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4349324400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Click home button",
+            "match": {
+              "location": "WhislistStep.clickHomeButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4891831500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Select the product \"Brita\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Brita",
+                  "offset": 20
+                }
+              ],
+              "location": "WhislistStep.selectTheProduct(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4844123500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click home button",
+            "match": {
+              "location": "WhislistStep.clickHomeButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10041935800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Select the product \"adidas\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "adidas",
+                  "offset": 20
+                }
+              ],
+              "location": "WhislistStep.selectTheProduct(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6260488800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click WishList",
+            "match": {
+              "location": "WhislistStep.clickWishList()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4201779900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Select any product",
+            "match": {
+              "location": "WhislistStep.selectAnyProduct()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Exercise",
+    "description": "",
+    "id": "exercise",
+    "keyword": "Feature",
+    "uri": "src/test/Resources/Whislist.feature"
+  }
+]
